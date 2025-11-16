@@ -1,0 +1,39 @@
+# Configuration files with sensitive data
+Config/SDPConfig.json
+*.env
+*.config
+credentials.json
+
+# Logs
+*.log
+log/
+logs/
+
+# Vendor directories
+vendor/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.class
+target/
+build/
+dist/*.jar
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# PHP
+*.cache
+
+# NetBeans
+nbproject/private/
