@@ -1,0 +1,12 @@
+[Unit]
+Description= SDP WAVE Processor SERVICE
+After=mysqld.service
+
+[Service]
+WorkingDirectory= /home/alwisam/charger/dist/
+Type=simple
+ExecStart=/usr/bin/java -jar SDPDirectProcessor.jar &
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

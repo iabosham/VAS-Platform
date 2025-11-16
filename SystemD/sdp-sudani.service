@@ -1,0 +1,12 @@
+[Unit]
+Description= SDP Processor SERVICE
+After=mysqld.service
+
+[Service]
+WorkingDirectory= /home/alwisam/dist/
+Type=simple
+ExecStart=/usr/bin/java -jar SDPProcessorSudani.jar &
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
