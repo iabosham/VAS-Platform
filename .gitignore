@@ -1,17 +1,14 @@
-# Configuration files with sensitive data
+# Configuration files with REAL sensitive data (not examples)
 Config/SDPConfig.json
-*.env
-*.config
+
+# Real credentials (not examples)
+*.env.production
 credentials.json
 
 # Logs
 *.log
-log/
-logs/
-
-# Vendor directories
-vendor/
-node_modules/
+log/*.log
+logs/*.log
 
 # IDE
 .idea/
@@ -21,19 +18,14 @@ node_modules/
 *~
 .DS_Store
 
-# Build artifacts
-*.class
-target/
-build/
-dist/*.jar
-
 # Temporary files
 *.tmp
 *.bak
 *.backup
 
-# PHP
+# PHP cache
 *.cache
 
-# NetBeans
-nbproject/private/
+# NetBeans private config only
+nbproject/private/private.xml
+nbproject/private/private.properties
