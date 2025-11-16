@@ -1,0 +1,26 @@
+[sudo] password for alwisam: [Sun Nov 16 12:22:09.441893 2025] [core:warn] [pid 867275] AH00111: Config variable ${APACHE_RUN_DIR} is not defined
+apache2: Syntax error on line 80 of /etc/apache2/apache2.conf: DefaultRuntimeDir must be a valid directory, absolute or relative to ServerRoot
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2024-07-17T18:57:26
+Server's Module Magic Number: 20120211:126
+Server loaded:  APR 1.7.0, APR-UTIL 1.6.1
+Compiled using: APR 1.7.0, APR-UTIL 1.6.1
+Architecture:   64-bit
+Server MPM:     
+Server compiled with....
+ -D APR_HAS_SENDFILE
+ -D APR_HAS_MMAP
+ -D APR_HAVE_IPV6 (IPv4-mapped addresses enabled)
+ -D APR_USE_PROC_PTHREAD_SERIALIZE
+ -D APR_USE_PTHREAD_SERIALIZE
+ -D SINGLE_LISTEN_UNSERIALIZED_ACCEPT
+ -D APR_HAS_OTHER_CHILD
+ -D AP_HAVE_RELIABLE_PIPED_LOGS
+ -D DYNAMIC_MODULE_LIMIT=256
+ -D HTTPD_ROOT="/etc/apache2"
+ -D SUEXEC_BIN="/usr/lib/apache2/suexec"
+ -D DEFAULT_PIDLOG="/var/run/apache2.pid"
+ -D DEFAULT_SCOREBOARD="logs/apache_runtime_status"
+ -D DEFAULT_ERRORLOG="logs/error_log"
+ -D AP_TYPES_CONFIG_FILE="mime.types"
+ -D SERVER_CONFIG_FILE="apache2.conf"
